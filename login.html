@@ -1,0 +1,33 @@
+{% load static %}
+
+!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{% static 'CSS/login.css' %}" />
+    <title>Login</title>
+  </head>
+  <body>
+      <body style="background-color: black">
+    <h1 style="text-align: center">LOGIN</h1>
+
+    <form action="Home" method="get">
+      <h2 style="text-align: center">Login Page</h2>
+
+      <label>Username: </label>
+      <input type="text" placeholder="Username" /><br /><br />
+
+      <label>Age: </label>
+      <input type="number" placeholder="Enter Age" /><br /><br />
+
+      <label>Email: </label>
+      <input type="email" placeholder="Enter Email" /><br /><br />
+
+      <label>DOB: </label>
+      <input type="date" placeholder="Enter DOB" /><br /><br />
+      <div>
+      <button id="btn1" type="submit">Submit</button>
+    </form>
+  </body>
+</html>
